@@ -1,0 +1,34 @@
+\documentclass[12pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{newtxtext,newtxmath}
+
+% Header for subsequent pages
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{L. Patterson, Ph.D.,\\
+ENGR 205 Instructor}
+    \fancyhead[C]{\today}
+\fancyhead[R]{\thepage}
+
+\title{\textbf{\small Annotated Bibliography and Ongoing Plan }}
+\usepackage[numbers,authoryear]{natbib}
+\begin{document}
+
+% Title
+%\maketitle
+\nocite{*}
+
+% Ensure no header on the first page
+\thispagestyle{plain}
+
+\noindent \textbf{To:} L. Patterson, Ph.D., ENGR 205 Instructor  \\
+\textbf{From:} J. Alejandra García M. \\
+\textbf{Date:} \today \\
+\textbf{Subject:} Annotated Bibliography and Ongoing Plan \\
+\hrule 
+
+\bibliographystyle{agsm-annot}
+\bibliography{test}
+   
+\end{document}
