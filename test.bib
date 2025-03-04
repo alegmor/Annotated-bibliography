@@ -1,52 +1,3 @@
-@book{zohuri2017physics,
-  title={Physics of cryogenics: an ultralow temperature phenomenon},
-  author={Zohuri, Bahman},
-  year={2017},
-  publisher={Elsevier},
-  chapter={14.8},
-  pages={458--459},
-  annotation = { During transportation and storage, cryogenic fluids remain in a metastable state, meaning they exist at their boiling temperature but remain in the liquid phase. This metastability occurs because the system is carefully controlled to prevent phase change. However, exposure to leakage, pressure fluctuations, or sudden heat transfer can disturb this balance, causing the liquid to rapidly vaporize and transition to a stable gaseous phase.
-
-Traditionally, these systems are studied under thermodynamic equilibrium, assuming stable conditions where heat and mass transfer are balanced. However, this approach is incorrect because cryogenic fluids in storage and transport are not truly in equilibrium—they are constantly subject to small disturbances, thermal gradients, and pressure changes. Ignoring their metastable nature overestimates stability and underestimates risks, making it crucial to analyze these fluids under realistic, dynamic conditions rather than idealized equilibrium assumptions.} 
-}
-
-@article{yi2024modeling,
-  title={Modeling of vapor bubble dynamics considering the metastable fluid state},
-  author={Yi, Qihao and Guo, Pengcheng and Zuo, Zhigang and Liu, Shuhong},
-  journal={Physics of Fluids},
-  volume={36},
-  number={2},
-  year={2024},
-  publisher={AIP Publishing},
- annotation = {Highlights the importance of considering the metastable fluid state, rather than assuming the bubble pressure corresponds to saturated conditions. Their study examines how subcooled vapor and superheated liquid influence bubble pressure and phase transition dynamics. Additionally, they incorporate the kinetic theory of gases to better capture the relationship between phase transition rates and rapid changes in bubble size, offering a more comprehensive model compared to previous assumptions of instantaneous vapor equilibrium.}
-}
-
-@article{reid1976superheated,
-  title={Superheated Liquids: Liquids in the superheated state, far from being a laboratory curiosity, occur more often than thought and may cause industrial accidents},
-  author={Reid, Robert C},
-  journal={American Scientist},
-  volume={64},
-  number={2},
-  pages={146--156},
-  year={1976},
-  publisher={JSTOR},
- annotation = {Emphasizes the importance of kinetic theory in understanding superheated liquids, as it provides insight into the rate of vapour bubble formation and its probability, rather than just predicting the superheat limit temperature from a thermodynamic perspective.}
-}
-
-
-@article{chen2024review,
-  title={Review on numerical simulation of boiling heat transfer from atomistic to mesoscopic and macroscopic scales},
-  author={Chen, Yujie and Yu, Bo and Lu, Wei and Wang, Bohong and Sun, Dongliang and Jiao, Kaituo and Zhang, Wei and Tao, Wenquan},
-  journal={International Journal of Heat and Mass Transfer},
-  volume={225},
-  pages={125396},
-  year={2024},
-  publisher={Elsevier},
-  annotation = {These authors conducted a comprehensive review of pool boiling simulations across multiple scales, comparing Molecular Dynamics Simulations (MDS), the Lattice Boltzmann Method (LBM), and macroscopic Computational Fluid Dynamics (CFD). Their analysis highlights the strengths and limitations of each approach. MDS enables the study of nanoscale bubble nucleation and explosive boiling, but its computational cost restricts its use to small systems. CFD, on the other hand, is effective for modeling large-scale boiling flows, yet it requires complex empirical models to account for bubble nucleation, phase transitions, and interface dynamics, making simulations computationally demanding and heavily parameter-dependent.
-
-LBM stands out as a promising approach that bridges the gap between atomistic and macroscopic methods. Unlike MDS and CFD, LBM’s pseudopotential model can simulate the entire boiling process without requiring preset nucleation sites or explicit interface reconstruction, simplifying computations while still capturing key phase transition dynamics. Additionally, LBM is well-suited for modeling bubble nucleation, growth, coalescence, and detachment, making it a practical alternative for simulating pool boiling, particularly in cryogenic applications.}
-}
-
 @article{reyhanian2021kinetic,
   title={Kinetic simulations of compressible non-ideal fluids: From supercritical flows to phase-change and exotic behavior},
   author={Reyhanian, Ehsan and Dorschner, Benedikt and Karlin, Ilya},
@@ -57,27 +8,4 @@ LBM stands out as a promising approach that bridges the gap between atomistic an
   year={2021},
   publisher={MDPI},
   annotation = {Demonstrated promising results in simulating compressible multiphase flows for non-ideal fluids, where phase change occurs naturally within the numerical scheme, removing the need for a separate phase change model.}
-}
-
-@article{dorschner2018particles,
-  title={Particles on demand for kinetic theory},
-  author={Dorschner, Benedikt and B{\"o}sch, Fabian and Karlin, Ilya V},
-  journal={Physical review letters},
-  volume={121},
-  number={13},
-  pages={130602},
-  year={2018},
-  publisher={APS},
-  annotation = {Introduced the Particles on Demand (PonD) method, a promising alternative from standard LBM because its semi-Lagrangian advection tracks particles back in time and adapts the discrete velocity set to the local thermo-hydrodynamics.}
-}
-
-@article{reyhanian2023exploring,
-  title={Exploring shock-capturing schemes for Particles on Demand simulation of compressible flows},
-  author={Reyhanian, Ehsan and Dorschner, Benedikt and Karlin, Ilya},
-  journal={Computers \& Fluids},
-  volume={263},
-  pages={105947},
-  year={2023},
-  publisher={Elsevier},
-  annotation = {PonD has primarily been used to study phase change at relatively small Mach numbers for non-ideal fluids. For larger Mach numbers, PonD has been applied to study non-dissipative compressible flows.}
 }
